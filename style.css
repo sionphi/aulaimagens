@@ -1,5 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+
 #brasil {
-    border: solid 3px green;
+    border: solid 5px green;
     width: 80vw;
     height: 60vh;
     background-color: lightblue;
@@ -13,4 +18,24 @@
 .brasilimg {
     height: 40vh;
     width: 20vw;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    border: solid green 3px;
+    font-size: 60px;
+    background-color: greenyellow;
+    font-family: fontboa;
+}
+
+h2 {
+    font-size: 45px;
+    color: green;
+
+}
+
+@font-face {
+    font-family: fontboa;
+    src: url(get_schwifty.ttf);
 }
